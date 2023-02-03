@@ -1,0 +1,22 @@
+/* Reinicio el CSS */
+*{
+    padding:0px;
+    margin:0px;
+    color:black;
+}
+
+body{
+    background:rgb(220,220,220);
+}
+header,main,footer{
+    background:white;
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+img{
+    width:100px;
+}
+#banner img{
+    width:100%;
+}
