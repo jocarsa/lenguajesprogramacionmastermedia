@@ -1,0 +1,97 @@
+/* Reinicio el CSS */
+*{
+    padding:0px;
+    margin:0px;
+    color:black;
+}
+
+body{
+    background:rgb(220,220,220);
+}
+header,main,footer{
+    background:white;
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+img{
+    width:100px;
+}
+#banner img{
+    width:100%;
+}
+#destacados article{
+    padding-top:20px;
+    width:32%;
+    display:inline-block;
+    text-align:center;
+    padding-bottom:20px;
+}
+#blog article{
+    width:24%;
+    display:inline-block;
+}
+#blog article img{
+    width:100%;
+}
+body{
+    font-family: sans-serif;
+}
+#blog article p{
+    text-align:justify;
+}
+nav ul{
+    list-style-type:none;
+}
+nav ul li{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:10px;
+    margin:0px;
+    text-align:center;
+    width:100px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+#social{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+header{
+    position:relative;
+}
+#social img{
+    width:30px;
+}
+
+table{
+    width:100%;
+}
+table th{
+    background:black;
+    color:white;
+}
+table tbody tr:nth-child(odd){
+    background:rgb(240,240,240);
+}
+table tbody tr:first-child{
+    background:rgb(220,255,220);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

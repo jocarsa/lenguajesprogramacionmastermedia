@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .dia{
+                width:50px;
+                height:50px;
+                border:1px solid black;
+                float:left;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            
+            for(let dia = 1;dia<=31;dia++){
+                document.writeln("<div class='dia'>"+dia+"</div>");
+                if(dia % 7 == 0){
+                   document.writeln("<div style='clear:both'></div>"); 
+                }
+            }
+            
+        </script>
+    </body>
+</html>
