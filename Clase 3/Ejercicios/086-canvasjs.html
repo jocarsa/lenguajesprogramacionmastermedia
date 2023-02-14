@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            canvas{border:1px solid grey;}
+        </style>
+    </head>
+    <body>
+       <canvas id="lienzo" width=512 height=512></canvas>
+        <script>
+            
+            var contexto = document.getElementById("lienzo").getContext("2d")
+            contexto.fillRect(20,20,40,40)
+            contexto.fillStyle = "red"
+            contexto.fillRect(80,20,40,40)
+            contexto.fillStyle = "green"
+            contexto.fillRect(140,20,40,40)
+            // Voy a dibujar un circulo
+            contexto.beginPath()
+            contexto.arc(200,200,100,0,Math.PI*2,true);
+            contexto.fill()
+            
+            var fecha = new Date()
+            hora = fecha.getHours()
+            minuto = fecha.getMinutes()
+            segundo = fecha.getSeconds()
+            
+            contexto.fillStyle = "rgb("+hora*10+","+minuto*4+","+segundo*4+")"
+            contexto.fillRect(240,220,140,140)
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+

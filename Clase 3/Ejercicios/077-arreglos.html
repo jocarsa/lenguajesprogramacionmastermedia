@@ -1,0 +1,36 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <input type="text" id="nuevonombre" placeholder="Introduce un nuevo nombre">
+        <button id="pulsame" onclick="anade()">Púlsame</button>
+        <br>
+        <button id="pulsamepop" onclick="quitapila()">Púlsame</button>
+        <br>
+        <input type="number" id="idquita">
+        <button id="pulsamequita" onclick="quitaid()">Púlsame</button>
+        <script>
+            var agenda = [];
+            agenda.push("Jose Vicente")
+            agenda.push("Antonio")
+            agenda.push("Lidia")
+            console.table(agenda)
+            console.log("Ahora la agenda tiene "+agenda.length+"elementos")
+            function anade(){
+                agenda.push(document.getElementById("nuevonombre").value)
+                console.table(agenda)
+                console.log("Ahora la agenda tiene "+agenda.length+"elementos")
+            }
+            function quitapila(){
+                agenda.pop()
+                console.table(agenda)
+                console.log("Ahora la agenda tiene "+agenda.length+"elementos")
+            }
+            function quitaid(){
+                agenda.splice(document.getElementById("pulsamequita").value,1)  
+                console.table(agenda)
+                console.log("Ahora la agenda tiene "+agenda.length+"elementos")
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            button{
+                background:black;
+                padding:10px;
+                color:white;
+                border:none;
+                border-radius:5px;
+                transition:1s;
+            }
+            button:hover{
+                background:red;
+            }
+            button:active{
+                background:green;
+            }
+            input{
+                transition:1s;
+            }
+            input:hover{
+                background:rgb(200,255,200);
+            }
+            input:focus{
+                box-shadow:0px 5px 10px rgba(0,0,0,0.4) inset;
+            }
+            button::before{
+                content:":: "
+            }
+            button::after{
+                content:" ::"
+            }
+        </style>
+    </head>
+    <body>
+       <button>Hola</button>
+        <input type="text" placeholder="Dime tu nombre">
+    </body>
+</html>
+
+
+
+
+
+
+
+
+

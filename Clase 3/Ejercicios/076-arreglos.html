@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <input type="text" id="nuevonombre" placeholder="Introduce un nuevo nombre">
+        <button id="pulsame" onclick="anade()">Púlsame</button>
+        
+        <script>
+            var agenda = [];
+            agenda.push("Jose Vicente")
+            agenda.push("Antonio")
+            agenda.push("Lidia")
+            console.table(agenda)
+            function anade(){
+                agenda.push(document.getElementById("nuevonombre").value)
+                console.table(agenda)
+            }
+        </script>
+    </body>
+</html>
