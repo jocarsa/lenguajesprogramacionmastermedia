@@ -1,0 +1,9 @@
+.post{
+    width:200px;
+    height:200px;
+    border:1px solid grey;
+    padding:20px;
+    float:left;
+    font-family: sans-serif;
+    margin:20px;
+}

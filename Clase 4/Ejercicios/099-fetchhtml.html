@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="Stylesheet" href="estiloblog.css">
+    </head>
+    <body>
+        <div id="blog"></div>
+        <script>
+            fetch("prueba.html").then(function(e){
+                return e.text();
+            }).then(function(data){
+                console.log(data)
+                document.getElementById("blog").innerHTML = data
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+    <head></head>
+    <body>
+        <div id="blog"></div>
+        <script>
+            fetch("blog.json").then(function(e){
+                return e.json();
+            }).then(function(data){
+                console.log(data)
+                console.log(data.articulos)
+                console.log(data.articulos[0])
+                for(let i = 0;i<data.articulos.length;i++){
+                    document.getElementById("blog").append("tienes un articulo")
+                }
+            });
+        </script>
+    </body>
+</html>

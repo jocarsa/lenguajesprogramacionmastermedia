@@ -1,0 +1,210 @@
+/* Reinicio el CSS */
+*{
+    padding:0px;
+    margin:0px;
+    color:black;
+}
+
+body{
+    background:rgb(220,220,220);
+}
+header,main,footer{
+    background:white;
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+img{
+    width:100px;
+}
+#banner img{
+    width:100%;
+}
+#destacados article{
+    padding-top:20px;
+    width:32%;
+    display:inline-block;
+    text-align:center;
+    padding-bottom:20px;
+}
+#blog article{
+    width:24%;
+    display:inline-block;
+}
+#blog article img{
+    width:100%;
+}
+body{
+    font-family: sans-serif;
+}
+#blog article p{
+    text-align:justify;
+}
+nav ul{
+    list-style-type:none;
+}
+nav ul li{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:10px;
+    margin:0px;
+    text-align:center;
+    width:100px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+#social{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+header{
+    position:relative;
+}
+#social img{
+    width:30px;
+}
+
+table{
+    width:100%;
+}
+table th{
+    background:black;
+    color:white;
+}
+table tbody tr:nth-child(odd){
+    background:rgb(240,240,240);
+}
+table tbody tr:first-child{
+    background:rgb(220,255,220);
+}
+
+@font-face{
+    font-family:alarcartejv;
+    src:url("fuentes/Alacarte.otf")
+}
+@font-face{
+    font-family:ubunturegular;
+    src:url("fuentes/Ubuntu-Regular.ttf")
+}
+@font-face{
+    font-family:ubuntubold;
+    src:url("fuentes/Ubuntu-Bold.ttf")
+}
+h3{
+    font-family: ubuntubold;
+    font-size:40px;
+}
+section{
+    border:1px solid grey;
+    width:100%;
+    font-family:ubunturegular;
+    text-align: justify;
+}
+img{
+    width:200px;
+    float:left;
+    margin-right:20px;
+}
+.negrita{
+    font-weight:bold;
+}
+.italica{
+    font-style: italic;
+}
+.subrayado{
+    text-decoration: underline;
+}
+section{
+    line-height:30px;
+    /*column-count: 2;*/
+}
+#contacto{
+    margin-top:50px;
+    width:50%;
+    padding:10px;
+    float:left;
+}
+#contacto input[type="text"],#contacto input[type="email"],#contacto select{
+    width:98%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#contacto label{
+    display:block;
+    width:100%;
+    border-top:1px solid grey;
+    margin-top:10px;
+    padding-top:10px;
+}
+#contacto textarea{
+    width:98%;
+    height:400px;
+}
+#contacto input[type="submit"],#contacto input[type="reset"]{
+    width:98%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:0px;
+    border-radius:5px;
+}
+#contacto input[type="submit"]{
+    background:rgb(200,255,200);
+}
+#contacto input[type="reset"]{
+    background:rgb(255,255,200);
+}
+#contacto input[type="radio"],#contacto input[type="checkbox"]{
+    margin-right:10px;
+}
+#logo{
+    width:100px;
+}
+
+
+#googlemap{
+    width:40%;
+    float:right;
+}
+nav ul li{
+    transition:1s all;
+}
+nav ul li:hover{
+    background:grey;
+    cursor:crosshair;
+}
+nav ul li a:hover{
+    cursor:crosshair;
+}
+input{
+    transition:all 1s;
+}
+input:hover{
+    background:rgb(255,255,200);
+}
+input:focus{
+    background:rgb(200,255,200);
+}
+#reloj{
+    position:absolute;
+    top:13px;
+    right:13px;
+    width:40px;
+}
+#social{
+    right:50px;
+}
+article{
+    box-sizing: border-box;
+    padding:10px;
+}
+
+
+

@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /formulario/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jocarsa.com/sitemap.xml

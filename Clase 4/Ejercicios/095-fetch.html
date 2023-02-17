@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            fetch("hola.txt").then(function(e){
+                console.log("ok")
+                //console.log(e.json())
+                return e.json();
+            }).then(function(data){
+                console.log(data)
+            });
+        </script>
+    </body>
+</html>

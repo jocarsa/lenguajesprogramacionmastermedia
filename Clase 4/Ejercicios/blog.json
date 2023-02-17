@@ -1,0 +1,16 @@
+{
+    "articulos":[
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT"
+        }
+    ]
+}

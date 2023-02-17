@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <style>
+            #reloj{
+                border:1px solid grey;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="reloj" width=200px height=200px;></canvas>
+        <script>
+            var contexto = document.getElementById("reloj").getContext("2d")
+            contexto.lineWidth = 5
+            contexto.beginPath()
+            contexto.arc(100,100,80,0,Math.PI*2,true)
+            contexto.stroke()
+        </script>
+    </body>
+</html>
