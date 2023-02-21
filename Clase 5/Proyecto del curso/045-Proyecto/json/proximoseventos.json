@@ -1,0 +1,59 @@
+{
+    "eventos":[
+        
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 1"
+        },
+        {
+            "fechadeinicio":"2023-03-01",
+            "duracion":"50 horas",
+            "nombre":"Curso de HTML",
+            "lugar":"Centro 2"
+        }
+    ]
+}

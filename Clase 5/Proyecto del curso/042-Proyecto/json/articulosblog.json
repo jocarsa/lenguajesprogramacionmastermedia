@@ -1,0 +1,113 @@
+{
+    "articulos":[
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas",
+            "imagen":"3ds-max-icon-400px-social.png",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO",
+            "imagen":"3ds-max-logo.png",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT",
+            "imagen":"1024px-Inkscape_Logo.svg.png",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas",
+            "imagen":"2000px-HTML5_logo_and_wordmark.svg.png",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor película del mes",
+            "contenido":"La mejor película del mes es As Bestas",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor serie del mes",
+            "contenido":"La mejor serie del mes es The Last Of Us con Pedro Pascal en HBO",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        },
+        {
+            "titulo":"Mejor tema del mes",
+            "contenido":"El mejor tema del mes es ChatGPT",
+            "imagen":"",
+            "fecha":"2023-02-17"
+        }
+        
+    ]
+}
