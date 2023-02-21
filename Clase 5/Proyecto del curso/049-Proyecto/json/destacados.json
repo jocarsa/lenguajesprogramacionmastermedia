@@ -1,0 +1,20 @@
+{
+    "destacados":[
+        {
+            "titulo":"Programación",
+            "contenido":"Desarrollo de software a medida de las pequeñas y medianas empresas",
+            "imagen":"programacion.png"
+        },
+        {
+            "titulo":"Diseño",
+            "contenido":"Genero visualizaciones 2D y 3D utilizando el estado del arte de la tecnología",
+            "imagen":"diseño.png"
+        },
+        {
+            "titulo":"Profesor",
+            "contenido":"Imparto formaciones de alto rendimiento en el sector tecnológico",
+            "imagen":"docencia.png"
+        }
+        
+    ]
+}

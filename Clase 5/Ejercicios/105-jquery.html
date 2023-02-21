@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <script>
+           // Cuando el documento esté preparado
+            $(document).ready(function(){
+                // Cuando sobre el elemento que tiene el id "hola" haga click
+                $("#hola").click(function(){
+                    // Selecciono el elemento que tiene el id "hola" y le pongo el texto "adios"
+                    $("#hola").text("adios")
+                })
+            })
+            
+        </script>
+    </head>
+    <body>
+        <div id="hola">Hola</div>
+    </body>
+</html>
